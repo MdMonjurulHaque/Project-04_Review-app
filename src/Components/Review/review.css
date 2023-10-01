@@ -1,0 +1,59 @@
+main {
+  /* background: red; */
+  margin-top: 10px;
+}
+
+.review-container {
+  width: 60%;
+  min-height: 350px;
+  background: white;
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px rgb(201, 201, 201);
+  padding: 1rem;
+  text-align: center;
+ 
+}
+section img {
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px gray;
+
+
+}
+section h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.p-title {
+  color: rgb(19, 183, 212);
+}
+.p-desc {
+  min-height: 100px;
+}
+
+.prev-btn,
+.next-btn {
+  color: rgb(62, 195, 240);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: rgb(38, 159, 199);
+}
+.surprise-btn {
+  font-size: 0.875rem;
+  background: rgb(187, 232, 247);
+  border-color: transparent;
+  text-transform: capitalize;
+  border-radius: 0.25rem;
+  transition: 0.3s ease-in-out;
+}
+.surprise-btn:hover {
+  background: rgb(148, 220, 238);
+  cursor: pointer;
+  letter-spacing: 1px;
+}
